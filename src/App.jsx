@@ -20,7 +20,7 @@ const App = () => {
       </div>
       <div className="me-itemListContainer-style">
         {console.log("Rendering ItemListContainer")}
-        <ItemListContainer greeting={"Buenas buenas!"} />
+        <ItemListContainer greeting={"Bienvenidos a la tienda de JP!"} />
       </div>
     </div>
   );
