@@ -7,8 +7,13 @@
 .me-navBar-style {
   font-weight: bold;
   font-size: large;
+
 };
 
 .mainDiv {
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

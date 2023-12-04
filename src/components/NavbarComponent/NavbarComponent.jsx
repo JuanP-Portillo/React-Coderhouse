@@ -10,19 +10,22 @@ const NavBar = () => {
       <div className="container">
         <p>
           <a href="https://github.com/JuanP-Portillo/React-Coderhouse" className="navInfo">
+            <img src="./src/assets/images/github-icon.png" alt="GitHub Icon" className="icon" style={{ width: '20px' }} />
             Github: JuanP-Portillo
           </a>{' '}
-          |{' '}
+          <span className="separator">|</span>{' '}
           <a
             href="mailto:juanp.portillob@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="navInfo"
           >
+            <img src="./src/assets/images/email-icon.png" alt="Email Icon" className="icon" style={{ width: '20px' }} />
             juanp.portillob@gmail.com
           </a>
         </p>
       </div>
+
 
       <div>
         <Navbar expand="lg" bg="light" variant="light" className="me-navbar-style">
