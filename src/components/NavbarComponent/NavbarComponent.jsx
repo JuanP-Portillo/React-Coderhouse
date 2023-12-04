@@ -32,6 +32,7 @@ const NavBar = () => {
           <Container fluid>
 
             <Navbar.Brand href="#">
+
               <img
                 src="./src/assets/images/rocket.png"
                 alt="Logo"
